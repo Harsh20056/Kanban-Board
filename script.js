@@ -112,6 +112,11 @@ addTaskBtn.addEventListener("click", () => {
   const taskTitle = document.querySelector("#task-title-input").value;
   const taskDesc = document.querySelector("#task-desc-input").value;
 
+  if(taskTitle.trim() ===""){
+    alert("Input field cannot be empty . Please enter a value")
+    return 0;
+  }
+  
   const div = document.createElement("div");
   div.classList.add("task");
   div.setAttribute("draggable", "true");
