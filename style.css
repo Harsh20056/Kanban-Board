@@ -171,3 +171,17 @@ section .task-column .task button {
   width: fit-content;
   align-self: center;
 }
+
+.task h2{
+  max-width: 300px;
+  overflow-wrap: break-word; /* Modern property */
+  word-wrap: break-word; 
+  white-space: normal;
+}
+
+.task p{
+  max-width: 300px;
+  overflow-wrap: break-word; /* Modern property */
+  
+  white-space: normal;
+}

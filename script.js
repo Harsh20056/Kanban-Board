@@ -121,6 +121,7 @@ addTaskBtn.addEventListener("click", () => {
             <p>${taskDesc}</p>
             <button>Delete</button>
     `;
+  
   todo.appendChild(div);
 
   div.addEventListener("drag", () => {
